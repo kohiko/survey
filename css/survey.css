@@ -1,0 +1,76 @@
+/* color palletes:
+gray: #d5e1df
+pastel yellow: #e3eaa7
+pastel green:  #b5e7a0
+olive green: #86af49 */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+  background-image: linear-gradient(to right, rgba(28, 50, 170, .8), rgba(28, 50, 170, .8)), url('code.jpeg');
+  background-size: cover;
+  background-position: center;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  margin: 0;
+  color: #FFF;
+}
+
+
+form{
+  background-color:rgba(5, 17, 84, 0.8);
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+  border-radius: 0.25rem;
+  max-width: 500px;
+  padding: 1.5em 3.5em;
+  margin: 0 auto;
+}
+
+.form-group{
+  margin: 1.5em 0;
+
+}
+
+.form-label{
+  display: block;
+  text-align: left;
+  margin-bottom: 6px;
+  font-size: 22px;
+}
+
+.form-control {
+  border: 1px solid #EEE;
+  border-radius: 0.25rem;
+  display: block;
+  margin-right: 1.5em;
+  width: 100%;
+  padding: 10px;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+.form-radio{
+  display: inline-block;
+  width: auto;
+}
+
+.clue{
+  font-size: 0.9rem;
+  margin-left: 0.65em;
+}
+
+.form-text{
+  min-height: 120px;
+  width: 100%;
+  padding: 0.625rem;
+
+}
+
+.form-button{
+  border: 1px solid #EEE;
+  border-radius: 0.25rem;
+  padding: 10px;
+  font-size: inherit;
+  font-family: inherit;
+  width: 50%;
+}
